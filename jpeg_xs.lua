@@ -61,7 +61,7 @@ do
         subtree:add(F.F, buffer(0,2))
         subtree:add(F.SEP, buffer(1,2))
         subtree:add(F.P, buffer(2,2))
-        subtree:add(F.Video_Data, buffer(3))
+        subtree:add(F.Video_Data, buffer(4))
     end
 
     -- register dissector to dynamic payload type dissectorTable
